@@ -1,0 +1,103 @@
+ .urgent {
+	position: fixed;
+	bottom: auto;
+	z-index: 99999;
+	width: 100%;
+	top: 0;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+}
+.urgent > div {
+	text-align: center !important;
+	background: transparent !important;
+	font-size: 13px !important;
+	padding-bottom: 15px !important;
+	margin-top: 10px !important;
+	width: 95% !important;
+	color: black !important;
+	margin-bottom: 10px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	border-radius: 5px !important;
+	position: relative !important;
+	max-width: 360px;
+	top: 80px;
+}
+.urgent > div img {
+	max-width: 100%;
+}
+.urgent info {
+	text-align: center !important;
+	display: block !important;
+	font-weight: bold !important;
+	font-family: arial !important;
+	color: #fff !important;
+	font-size: 15px !important;
+	background: #000 !important;
+	padding: 10px 0 !important;
+	margin-bottom: 10px !important;
+}
+.urgent p {
+	margin: 0 !important;
+	color: black;
+}
+.urgent .info p {
+	font-size: 17px !important;
+	font-weight: bold;
+}
+.urgent .tutup-urgent {
+	position: absolute !important;
+	top: -25px !important;
+	font-family: arial !important;
+	color: white !important;
+	font-size: 25px !important;
+	background: red !important;
+	border-radius: 250px !important;
+	width: 46px !important;
+	text-align: center !important;
+	line-height: 46px !important;
+	margin-left: -23px;
+	cursor: pointer;
+}
+.urgent .wame {
+	font-size: 25px !important;
+	color: red;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.maintenance {
+	background: #4285ba;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 14px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 10;
+	border-top: 8px solid #245073;
+}
+.tutup-maintenance {
+	background: red;
+	padding: 5px;
+	border-radius: 50px;
+	width: 29px;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -20px;
+	margin-left: -15px;
+}
+.urgent div.info {
+	background: white !important;
+	top: 76px;
+}
+@media screen and (max-width: 1024px) {
+    .maintenance {
+    	bottom: 44px;
+    }
+    .urgent > div {
+    	width: 85% !important;
+    }
+}
